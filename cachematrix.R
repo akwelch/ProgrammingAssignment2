@@ -1,4 +1,5 @@
-## This function is intended to save time when calculating the inverse of a matrix.
+## This function is intended to save time when calculating the inverse of a matrix. The makeCacheMatrix
+## will pass along the calculated inverse matrix to the cacheSolve function.
 
 ## The following function is to create a matrix that can cache its inverse. The matrix must be 
 ## invertable. The operators <<- tell R to look for that variable in a parent function and not to 
